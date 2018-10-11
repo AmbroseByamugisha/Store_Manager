@@ -1,22 +1,36 @@
 body{
 	display: block;
+	margin: auto;
+	font-family: Helvetica;
 }
+
 .nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: grey;
+	padding: 14px 16px;
+	/*height: 60px;*/
 }
 
-li a {
-
+.left-item, .right-item {
 	float: left;
-	display: block;
+	display: block; 
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0px;
 	text-decoration: none;
+	margin-right: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: red;
 }
 
 .right-item {
@@ -41,13 +55,14 @@ li a {
 }
 
 .list-item {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	list-style-type: none;
+	border-bottom: solid;
 }
 
 .center {
-	background-color: black;
-	color: #fff;
-	margin: 0px !important;
+	margin: auto;
 }
 
 .form label {
@@ -62,5 +77,34 @@ li a {
 .form input[type="text"] {
 	height: 20px;
 	width: 600px;
-	border-radius: 5px
+	border-radius: 10px;
+	border: solid;
+	border-color: grey;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+.button {
+	background-color: #3aafa9;
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	border: solid;
+	border-color: #3aafa9;
+	color: #fff;  
+}
+
+.dash {
+	margin: auto;
+	background-color: #3aafa9;
+	color: white;
 }
