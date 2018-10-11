@@ -1,0 +1,66 @@
+body{
+	display: block;
+}
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+
+li a {
+
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.right-item {
+	float: right;
+}
+
+.left {
+	float: left;
+	background-color: #008080;
+	color: #fff;
+	width: 20%;
+	height: 500px;
+	background-image: url(../images/store_manager.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	background-position: top;
+	margin-right: 5px; 
+}
+
+.sidebar {
+	margin-top: 220px !important;
+}
+
+.list-item {
+	margin-bottom: 15px;
+}
+
+.center {
+	background-color: black;
+	color: #fff;
+	margin: 0px !important;
+}
+
+.form label {
+	/* block to diplay on another line */
+	display: block;
+}
+
+.form .form-input {
+	padding-bottom: 25px;
+}
+
+.form input[type="text"] {
+	height: 20px;
+	width: 600px;
+	border-radius: 5px
+}
