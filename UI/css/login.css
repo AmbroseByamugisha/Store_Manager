@@ -10,18 +10,34 @@
 	padding: 0;
 	overflow: hidden;
 	background-color: grey;
+	padding: 14px 16px;
+	/*height: 60px;*/
 }
 
-li a {
-
+.left-item, .right-item {
 	float: left;
-	display: block;
+	display: block; 
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0px;
+	margin-right: 15px;
+}
+
+.nav-item {
 	text-decoration: none;
 }
 
+.right-item {
+	float: right !important;
+}
+a {
+	color: white;
+}
+
+a:hover{
+	color: red;
+	text-underline-position: none;
+}
 
 .form {
 	
@@ -54,11 +70,34 @@ li a {
 	padding: 10px 15px;
 	border: none;
 }
-/* under responsiveness, 
-have an image of people behind the form or 
-on the side in the big version */
 .main {
 	width: 600px;
-	margin-top: 100px !important;
-	margin-left: 400px !important;
+	margin-top: 100px;
+	margin-left: 400px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+.reminder {
+	text-decoration: none;
+	font-size: 13px;
+	padding-left: 50px;
+}
+
+span {
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 400px) {
+    .main{
+    	width: 300px !important;
+    }
 }
