@@ -1,0 +1,104 @@
+body{
+	display: block;
+	margin: auto;
+	font-family: Helvetica;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+	padding: 14px 16px;
+	/*height: 60px;*/
+}
+
+.left-item, .right-item {
+	float: left;
+	display: block; 
+	color: white;
+	text-align: center;
+	padding: 0px;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+a:hover {
+	color: red;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.right-item {
+	float: right;
+}
+
+.left {
+	float: left;
+	background-color: #008080;
+	color: #fff;
+	width: 20%;
+	height: 500px;
+	background-image: url(../images/store_manager.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	background-position: top;
+	margin-right: 5px; 
+}
+
+.sidebar {
+	margin-top: 220px !important;
+}
+
+.list-item {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	list-style-type: none;
+	border-bottom: solid;
+}
+
+.nav-item {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+.dash {
+	margin: auto;
+	background-color: #3aafa9;
+	color: white;
+}
+
+.button {
+	background-color: #3aafa9;
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	border: solid;
+	border-color: #3aafa9;
+	color: #fff;  
+}
+
+.photos {
+	display: grid;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
